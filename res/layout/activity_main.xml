@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:width="1125dp"
+    android:height="2436dp"
+    android:background="@color/back"
+    android:viewportWidth="1125"
+    android:viewportHeight="2436"
+    tools:context=".MainActivity2">
+
+
+    <ImageView
+        android:id="@+id/block"
+        android:layout_width="415dp"
+        android:layout_height="325dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/upblock" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="171dp"
+        android:layout_height="114dp"
+        android:fontFamily="monospace"
+        android:text="@string/upper_name"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="100dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="380dp"
+        android:background="@drawable/round_btn"
+        android:fontFamily="sans-serif"
+        android:text="Создать аккаунт"
+        android:textColor="#FFFBFE99"
+        android:textSize="45px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/block"
+        app:layout_constraintVertical_bias="0.932" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_btn"
+        android:fontFamily="sans-serif"
+        android:text="Войти"
+        android:textColor="#FFFBFE99"
+        android:textSize="45px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/block"
+        app:layout_constraintVertical_bias="0.586" />
+
+    <TextView
+        android:id="@+id/Connectwith"
+        android:layout_width="105dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="208dp"
+        android:text="Вход через"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
